@@ -8,7 +8,7 @@ from telegram.ext import (
     ConversationHandler,
 )
 
-from cache.buttons import REPLY_MARKUP
+from cache.keyboards import REPLY_MARKUP
 from config import TOKEN
 from utils import get_buffer, get_position, make_move
 
